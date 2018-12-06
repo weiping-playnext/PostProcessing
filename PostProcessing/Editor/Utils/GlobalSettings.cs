@@ -48,7 +48,7 @@ namespace UnityEditor.Rendering.PostProcessing
             Load();
         }
 
-        #if UNITY_2018_3_OR_NEWER
+        #if UNITY_2019_OR_NEWER
         [SettingsProvider]
         static SettingsProvider PreferenceGUI()
         {
