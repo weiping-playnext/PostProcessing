@@ -6,6 +6,7 @@ Shader "Hidden/PostProcessing/FinalPass"
         #pragma multi_compile __ FXAA_KEEP_ALPHA
         #pragma multi_compile __ STEREO_INSTANCING_ENABLED
         #pragma multi_compile __ STEREO_DOUBLEWIDE_TARGET
+        #pragma target 5.0
         #include "../StdLib.hlsl"
         #include "../Colors.hlsl"
         #include "Dithering.hlsl"
